@@ -12,7 +12,14 @@ public partial class db_selects : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        HentBrugere();
+        if (!IsPostBack)
+        {
+            HentBrugere();
+        }
+        else
+        {
+            HentBrugere(Convert.ToInt32(CheckBoxListRoles.SelectedValue));
+        }
     }
     private SqlConnection Conn()
     { 
@@ -20,7 +27,6 @@ public partial class db_selects : System.Web.UI.Page
         //["ConnectionString"] fås fra min webconfig-fil copy/paste navnet
         conn.ConnectionString = ConfigurationManager.ConnectionStrings["DBCONN"].ToString();
         conn.Open();
-
         return conn;
     } 
     private void HentBrugere()
@@ -36,5 +42,20 @@ public partial class db_selects : System.Web.UI.Page
         repeater_brugere.DataSource = dt;
         repeater_brugere.DataBind();
 
+    }
+        
+    private void HentBrugere(int rolle)
+    {
+        SqlCommand cmd = new SqlCommand();
+        cmd.Connection = Conn();
+        cmd.CommandText = "SELECT * FROM bruger WHERE fk_rolle_id = @rolle";
+        cmd.Parameters.Add("@rolle", SqlDbType.Int).Value = rolle;
+
+        DataTable dt = new DataTable();
+        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+
+        adapter.Fill(dt);
+        repeater_brugere.DataSource = dt;
+        repeater_brugere.DataBind();
     }
 }
