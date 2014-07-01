@@ -1,31 +1,4 @@
 <?php
-include ("includes/side_start.php");
-// ==============================================================
-?>
-<!doctype html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Gratis Online Spil</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-
-<body>
-<div id="container">
-	<header id="top" class="tviolet">
-		<h1>Gratis Online Spil</h1>
-
-		<p>
-		<span>Logget ind som <b>Hans Kristian</b>.</span>
-		<a href='logud.php' class='logout'>Log ud</a>
-		</p>
-	</header>
-
-	<nav>
-		<?php
-		include ("includes/nav_logincheat.php");
-		?>
-
 		<ul>
 			<li><a href="index.php" class="tblue">Forside</a></li>
 			<li><a href="spil.php" class="tgreen">Spil</a></li>
