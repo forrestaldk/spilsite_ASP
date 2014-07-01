@@ -2,7 +2,7 @@
 
 <asp:Content ID="ContentHead" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
-<asp:Content ID="ContentArtikel" ContentPlaceHolderID="ContentPlaceHolder_artikel" runat="Server">
+<asp:Content ID="ContentArtikel" ContentPlaceHolderID="ContentPlaceHolder_main" runat="Server">
     <article>
         <header>
             <h1><a href="#top" title="Til top">Dagens spil</a></h1>
@@ -102,117 +102,9 @@
 
 
 </asp:Content>
-<asp:Content ID="ContentTop3OnlineSpil" ContentPlaceHolderID="ContentPlaceHolder_top3onlinespile" runat="Server">
-    <article>
-        <header>
-            <h1><a href="#top" title="Til top">Top 3 Online spil</a></h1>
-        </header>
-        <p>
-            <img src="site/images/spil/coastbike.jpg" width="100%" title="Coast Bike">
-            <img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
-            <br>
-            Coast Bike
-        </p>
-        <p>
-            <img src="site/images/spil/virtualvillagers.jpg" width="100%" title="Virtual Villagers">
-            <img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
-            <br>
-            Virtual Villagers
-        </p>
-        <p>
-            <img src="site/images/spil/bubblematch.jpg" width="100%" title="Bubble Match">
-            <img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
-            <br>
-            Bubble Match
-        </p>
-    </article>
-    <article>
-</asp:Content>
-<asp:Content ID="Contenttop3DownloadSpil" ContentPlaceHolderID="ContentPlaceHolder_top3DownloadSpil" runat="server">
 
-    <header>
-        <h1><a href="#top" title="Til top">Top 3 Downloadede spil</a></h1>
-    </header>
-    <p>
-        <img src="site/images/spil/dirtydevils.jpg" width="100%" title="Dirty Devils">
-        <img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
-        <br>
-        Dirty Devils
-    </p>
-    <p>
-        <img src="site/images/spil/deadparadise.jpg" width="100%" title="Dead Paradise">
-        <img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
-        <br>
-        Dead Paradise
-    </p>
-    <p>
-        <img src="site/images/spil/jewelquest1.jpg" width="100%" title="Jewel Quest 1">
-        <img src="site/images/star/star2w3y.png" width="100%" title="Star" class="star">
-        <br>
-        Jewel Quest 1
-    </p>
 
-</asp:Content>
-<asp:Content ID="ContentRightSideBarUpload" runat="server" ContentPlaceHolderID="ContentPlaceHolder_RightSideBarUpload">
-    <article class="upload">
-        <a href="#">
-            <header>
-                Upload
-                                <br>
-                nyt spil
-            </header>
-        </a>
-    </article>
-</asp:Content>
-<asp:Content ID="ContentRightSidebarNyheder" runat="server" ContentPlaceHolderID="ContentPlaceHolder_RightSideBarNyheder">
-    <article>
-        <header>
-            <h1><a href="#top" title="Til top">Nyheder</a></h1>
-        </header>
-        <p>
-            <img src="site/images/spil/angryalamo.jpg" width="100%" title="Angry Alamo">
-            <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
-            <br>
-            Angry Alamo
-        </p>
-        <p>
-            <img src="site/images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3">
-            <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
-            <br>
-            Jewel Quest 3
-                    <p>
-                        <img src="site/images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal">
-                        <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
-                        <br>
-                        The Mystery of the Crystal Portal
-                    </p>
-    </article>
-</asp:Content>
-<asp:Content ID="ContentRightSidebarUdvalgte" runat="server" ContentPlaceHolderID="ContentPlaceHolder_rightSideBarUdvalgte">
-    <article>
-        <header>
-            <h1><a href="#top" title="Til top">Udvalgte</a></h1>
-        </header>
-        <p>
-            <img src="site/images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1">
-            <img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
-            <br>
-            Dead Paradise 1
-        </p>
-        <p>
-            <img src="site/images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2">
-            <img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
-            <br>
-            Jewel Quest 2
-        </p>
-        <p>
-            <img src="site/images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze">
-            <img src="site/images/star/star2w3y.png" width="100%" title="Star" class="star">
-            <br>
-            Mayan Maze
-        </p>
-    </article>
-</asp:Content>
-<asp:Content ID="ContentFooter" ContentPlaceHolderID="ContentPlaceHolder_Footer" runat="server">
-    <p>Dit Navn Copyright © <%--indsæt dato--%> </p>
-</asp:Content>
+
+
+
+
