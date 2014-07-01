@@ -25,7 +25,7 @@
 
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_main" Runat="Server">
     <asp:Repeater ID="repeater_brugere" runat="server">
         <ItemTemplate>
             <article>
