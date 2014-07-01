@@ -4,17 +4,61 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-    <asp:ContentPlaceHolder id="head" runat="server">
+    <meta charset="UTF-8">
+    <title>Gratis Online Spil</title>
+    <link href="Site/css/styles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div id="container">
+
+            <header id="top" class="tblue">
+                <h1>Gratis Online Spil</h1>
+
+                <%-- Login form eller brugernavn--%>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="index.php" class="tblue">Forside</a></li>
+                    <li><a href="spil.php" class="tgreen">Spil</a></li>
+                    <li><a href="profil.php" class="tred">Profil</a></li>
+                    <li><a href="admin.php" class="tviolet">Admin</a></li>
+                </ul>
+            </nav>
+
+            <section class="active bbluea">
+                <section class="tblue">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_artikel" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_top3onlinespile" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_top3DownloadSpil" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+                <section class="tblue">
+                    <%--[TODO]: Upload knappen skal kun vises hvis man har lov at uploade spil. >--%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_RightSideBarUpload" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_RightSideBarNyheder" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder_rightSideBarUdvalgte" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </section>
+            </section>
+            <footer class="tblue">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder_Footer" runat="server">
+                </asp:ContentPlaceHolder>
+            </footer>
+
+        </div>
     </form>
 </body>
 </html>

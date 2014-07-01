@@ -70,9 +70,9 @@ include ("includes/side_start.php");
 					<h1><a  href="#top" title="Til top">Mine uploads</a></h1>
 				</header>
 
-				<p> <img src="images/spil/angryalamo.jpg" width="100%" title="Angry Alamo"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Angry Alamo </p>
-				<p> <img src="images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 3
-				<p> <img src="images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>The Mystery of the Crystal Portal </p>
+				<p> <img src="site/images/spil/angryalamo.jpg" width="100%" title="Angry Alamo"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Angry Alamo </p>
+				<p> <img src="site/images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 3
+				<p> <img src="site/images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>The Mystery of the Crystal Portal </p>
 			</article>
 		</section>
 	</section>

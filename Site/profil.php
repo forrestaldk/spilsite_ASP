@@ -74,7 +74,7 @@ include ("includes/side_start.php");
 						<small>Det navn der vises</small>
 						<label for="medlem_billede">Upload profilbillede <br>
 						<small>(Maks. filstørrelse 1MB)</small></label>
-						<img alt="profilbillede" src="images/profile.png" />
+						<img alt="profilbillede" src="site/images/profile.png" />
 						<input id="member_image" name="member_image" type="file" />
 						<label for="name">Rigtige navn</label>
 						<input id="name" name="name" size="30" type="text" value="Hans Kristian Jensen" />
@@ -166,9 +166,9 @@ include ("includes/side_start.php");
 					<h1><a  href="#top" title="Til top">Mine uploads</a></h1>
 				</header>
 
-				<p> <img src="images/spil/angryalamo.jpg" width="100%" title="Angry Alamo"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Angry Alamo </p>
-				<p> <img src="images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 3
-				<p> <img src="images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal"> <img src="images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>The Mystery of the Crystal Portal </p>
+				<p> <img src="site/images/spil/angryalamo.jpg" width="100%" title="Angry Alamo"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Angry Alamo </p>
+				<p> <img src="site/images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 3
+				<p> <img src="site/images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal"> <img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star"> <br>The Mystery of the Crystal Portal </p>
 			</article>
 
 			<article>
@@ -176,9 +176,9 @@ include ("includes/side_start.php");
 					<h1><a  href="#top" title="Til top">Senest spillet</a></h1>
 				</header>
 
-				<p> <img src="images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1"> <img src="images/star/star0w5y.png" width="100%" title="Star" class="star"> <br>Dead Paradise 1 </p>
-				<p> <img src="images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2"> <img src="images/star/star1w4y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 2 </p>
-				<p> <img src="images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze"> <img src="images/star/star2w3y.png" width="100%" title="Star" class="star"> <br>Mayan Maze </p>
+				<p> <img src="site/images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1"> <img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star"> <br>Dead Paradise 1 </p>
+				<p> <img src="site/images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2"> <img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star"> <br>Jewel Quest 2 </p>
+				<p> <img src="site/images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze"> <img src="site/images/star/star2w3y.png" width="100%" title="Star" class="star"> <br>Mayan Maze </p>
 			</article>
 		</section>
 	</section>
