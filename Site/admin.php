@@ -1,6 +1,5 @@
 <?php
 include ("includes/side_start.php");
-
 // ==============================================================
 ?>
 <!doctype html>
