@@ -16,16 +16,20 @@
 
             <header id="top" class="tblue">
                 <h1>Gratis Online Spil</h1>
-               
+
                 <%-- Login form eller brugernavn--%>
             </header>
 
             <nav>
                 <ul>
-                    <li><asp:HyperLink ID="forside" runat="server" NavigateUrl='~/default.aspx' class="tblue">Forside</asp:HyperLink></li>
-                     <li><asp:HyperLink ID="spil" runat="server" NavigateUrl='~/spil.aspx' class="tgreen">Spil</asp:HyperLink></li>
-                     <li><asp:HyperLink ID="profil" runat="server" NavigateUrl='~/profil.aspx' class="tred">Profil</asp:HyperLink></li> 
-                    <li><asp:HyperLink ID="admin" runat="server" NavigateUrl='~/admin/admin.aspx' class="tviolet">Admin</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="forside" runat="server" NavigateUrl='~/default.aspx' class="tblue">Forside</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="spil" runat="server" NavigateUrl='~/spil.aspx' class="tgreen">Spil</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="profil" runat="server" NavigateUrl='~/profil.aspx' class="tred">Profil</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="admin" runat="server" NavigateUrl='~/admin/admin.aspx' class="tviolet">Admin</asp:HyperLink></li>
                 </ul>
             </nav>
 
@@ -40,20 +44,24 @@
                             <h1><a href="#top" title="Til top">Top 3 Online spil</a></h1>
                         </header>
                         <p>
-                            <img src="images/spil/coastbike.jpg" width="100%" title="Coast Bike">
-                            <img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image17" runat="server" ImageUrl="~/images/spil/coastbike.jpg" Width="100%" />
+                            <asp:Image ID="Image18" runat="server" ImageUrl="~/images/star/star0w5y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Coast Bike
                         </p>
                         <p>
-                            <img src="images/spil/virtualvillagers.jpg" width="100%" title="Virtual Villagers">
-                            <img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image19" runat="server" ImageUrl="~/images/spil/virtualvillagers.jpg" Width="100%" />
+                            <asp:Image ID="Image20" runat="server" ImageUrl="~/images/star/star0w5y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Virtual Villagers
                         </p>
                         <p>
-                            <img src="images/spil/bubblematch.jpg" width="100%" title="Bubble Match">
-                            <img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
+
+                            <asp:Image ID="Image21" runat="server" ImageUrl="~/images/spil/bubblematch.jpg" Width="100%" />
+                            <asp:Image ID="Image22" runat="server" ImageUrl="~/images/star/star1w4y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Bubble Match
                         </p>
@@ -65,20 +73,20 @@
                         </header>
 
                         <p>
-                            <img src="images/spil/dirtydevils.jpg" width="100%" title="Dirty Devils">
-                            <img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="DirtyDevils" runat="server" ImageUrl="~/images/spil/dirtydevils.jpg" Width="100%" />
+                            <asp:Image ID="Star1w4y" runat="server" ImageUrl="~/images/star/star1w4y.png" Width="100%" CssClass="star" />
                             <br>
                             Dirty Devils
                         </p>
                         <p>
-                            <img src="images/spil/deadparadise.jpg" width="100%" title="Dead Paradise">
-                            <img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/spil/deadparadise.jpg" Width="100%" />
+                            <asp:Image ID="Image2" runat="server" ImageUrl="~/images/star/star1w4y.png" Width="100%" CssClass="star" />
                             <br>
                             Dead Paradise
                         </p>
                         <p>
-                            <img src="images/spil/jewelquest1.jpg" width="100%" title="Jewel Quest 1">
-                            <img src="images/star/star2w3y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image3" runat="server" ImageUrl="~/images/spil/jewelquest1.jpg" Width="100%" />
+                            <asp:Image ID="Image4" runat="server" ImageUrl="~/images/star/star2w3y.png" Width="100%" CssClass="star" />
                             <br>
                             Jewel Quest 1
                         </p>
@@ -101,19 +109,23 @@
                             <h1><a href="#top" title="Til top">Nyheder</a></h1>
                         </header>
                         <p>
-                            <img src="images/spil/angryalamo.jpg" width="100%" title="Angry Alamo">
-                            <img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image5" runat="server" ImageUrl="~/images/spil/angryalamo.jpg" Width="100%" />
+                            <asp:Image ID="Image6" runat="server" ImageUrl="~/images/star/star5w0y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Angry Alamo
                         </p>
                         <p>
-                            <img src="images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3">
-                            <img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image7" runat="server" ImageUrl="~/images/spil/jewelquest3.jpg" Width="100%" />
+                            <asp:Image ID="Image8" runat="server" ImageUrl="~/images/star/star5w0y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Jewel Quest 3
             <p>
-                <img src="images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal">
-                <img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image9" runat="server" ImageUrl="~/images/spil/themysteryofthecrystalportal.jpg" Width="100%" />
+                            <asp:Image ID="Image10" runat="server" ImageUrl="~/images/star/star5w0y.png" Width="100%" CssClass="star" />
+
+
                 <br>
                 The Mystery of the Crystal Portal
             </p>
@@ -123,20 +135,22 @@
                             <h1><a href="#top" title="Til top">Udvalgte</a></h1>
                         </header>
                         <p>
-                            <img src="images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1">
-                            <img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image11" runat="server" ImageUrl="~/images/spil/deadparadise1.jpg" Width="100%" />
+                            <asp:Image ID="Image12" runat="server" ImageUrl="~/images/star/star0w5y.png" Width="100%" CssClass="star" />
                             <br>
                             Dead Paradise 1
                         </p>
                         <p>
-                            <img src="images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2">
-                            <img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image13" runat="server" ImageUrl="~/images/spil/jewelquest2.jpg" Width="100%" />
+                            <asp:Image ID="Image14" runat="server" ImageUrl="~/images/star/star1w4y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Jewel Quest 2
                         </p>
                         <p>
-                            <img src="images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze">
-                            <img src="images/star/star2w3y.png" width="100%" title="Star" class="star">
+                            <asp:Image ID="Image15" runat="server" ImageUrl="~/images/spil/mayanmaze.jpg" Width="100%" />
+                            <asp:Image ID="Image16" runat="server" ImageUrl="~/images/star/star2w3y.png" Width="100%" CssClass="star" />
+
                             <br>
                             Mayan Maze
                         </p>
