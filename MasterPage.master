@@ -18,7 +18,8 @@
                 <h1>Gratis Online Spil</h1>
 
                 <section class="form">
-                    <asp:Literal ID="login_besked" runat="server" Text="Velkommen"></asp:Literal>
+                    <asp:Literal ID="besked" runat="server" Text=""></asp:Literal>
+                    <asp:Button ID="btn_logud" runat="server" Text="Logud" Visible="false" OnClientClick="" OnClick="btn_logud_Click" />
                     <asp:MultiView ID="LoggedInView" runat="server">
                         <asp:View ID="loginFormView" runat="server">
 

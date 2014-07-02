@@ -14,18 +14,21 @@ public partial class MasterPage : System.Web.UI.MasterPage
     protected void Page_Load(object sender, EventArgs e)
     {
         bool LoggedIn = logintest();
-        Session["bruger_navn"] = "Hans";
+        //Session["bruger_navn"] = "Hans";
 
         if (LoggedIn == true)
         {
             LoggedInView.ActiveViewIndex = -1;
-            login_besked.Text = "Velkommen " + Session["bruger_navn"].ToString();
+            besked.Text = "Velkommen " + Session["bruger_navn"].ToString();
+            btn_logud.Visible = true;
+            
         }
         else
         {
             LoggedInView.ActiveViewIndex = 0;
-            login_besked.Text += "Velkommen Gæst";
+            besked.Text += "Velkommen Gæst";
         }
+        Page_Load(null, null);
     }
 
 
@@ -38,7 +41,6 @@ public partial class MasterPage : System.Web.UI.MasterPage
         {
             loggedIn = true;
         }
-
         return loggedIn;
     }
 
@@ -58,21 +60,25 @@ public partial class MasterPage : System.Web.UI.MasterPage
         cmd.CommandText = @"SELECT * FROM bruger 
                             WHERE bruger_username = @bnavn 
                             AND bruger_password = @bpass";
-        cmd.Parameters.Add("@bnavn", SqlDbType.Int).Value = user;
-        cmd.Parameters.Add("@bpass", SqlDbType.Int).Value = pass;
+        cmd.Parameters.Add("@bnavn", SqlDbType.VarChar).Value = user;
+        cmd.Parameters.Add("@bpass", SqlDbType.VarChar).Value = pass;
 
-        SqlDataReader reader = new SqlDataReader();
-        if (reader.Read)
-	{
-        Session["bruger_id"] = reader["bruger_id"].ToString();
-        Session["bruger_rolle"] = reader["fk_rolle_id"].ToString();
+        SqlDataReader reader = cmd.ExecuteReader();
+        if (reader.Read())
+        {
+            Session["bruger_id"] = reader["bruger_id"].ToString();
+            Session["bruger_navn"] = reader["bruger_navn"].ToString();
+            Session["bruger_rolle"] = reader["fk_rolle_id"];
+        }
 
-	}
-        
 
     }
 
     protected void btn_login_Click(object sender, EventArgs e)
+    {
+        loginForm(tb_username.Text, tb_password.Text);
+    }
+    protected void btn_logud_Click(object sender, EventArgs e)
     {
 
     }
