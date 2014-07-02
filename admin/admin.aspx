@@ -3,6 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_main" Runat="Server">
-    Dette er indeholdet
+    Dette er indeholdet af ADMIN
 </asp:Content>
 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="ContentHead" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
@@ -7,11 +7,11 @@
         <header>
             <h1><a href="#top" title="Til top">Dagens spil</a></h1>
             <h2>Tera bliver GRATIS</h2>
-            <img src="Site/images/star/star0w5y.png" width="100%" title="Star" class="star" />
+            <img src="images/star/star0w5y.png" width="100%" title="Star" class="star" />
 
         </header>
         <p>
-            <img src="site/images/splash/terasplash.jpg" width="48%" height="27.2%" title="Tera - Gratis MMO spil">
+            <img src="images/splash/terasplash.jpg" width="48%" height="27.2%" title="Tera - Gratis MMO spil">
             <strong>New "Rising" version of MMORPG to be available without subscription fee next month with no level cap or content restrictions for new players.</strong>
             <br>
             <br>
