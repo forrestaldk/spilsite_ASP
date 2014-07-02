@@ -22,10 +22,10 @@
 
             <nav>
                 <ul>
-                    <li><a href="index.php" class="tblue">Forside</a></li>
-                    <li><a href="spil.php" class="tgreen">Spil</a></li>
-                    <li><a href="profil.php" class="tred">Profil</a></li>
-                    <li><a href="admin.php" class="tviolet">Admin</a></li>
+                    <li><asp:HyperLink ID="forside" runat="server" NavigateUrl='~/default.aspx' class="tblue">Forside</asp:HyperLink></li>
+                     <li><asp:HyperLink ID="spil" runat="server" NavigateUrl='~/spil.aspx' class="tgreen">Spil</asp:HyperLink></li>
+                     <li><asp:HyperLink ID="profil" runat="server" NavigateUrl='~/profil.aspx' class="tred">Profil</asp:HyperLink></li> 
+                    <li><asp:HyperLink ID="admin" runat="server" NavigateUrl='~/admin/admin.aspx' class="tviolet">Admin</asp:HyperLink></li>
                 </ul>
             </nav>
 
