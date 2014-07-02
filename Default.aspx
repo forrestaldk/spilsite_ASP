@@ -33,7 +33,7 @@
             Tera is the latest MMO to drop its subscription fee, following Lord of the Rings Online, Age of Conan: Hyborian Adventures, EverQuest II, Aion, and Star Wars: The Old Republic. Bethesda has not said if its upcoming MMO The Elder Scrolls Online will carry a subscription fee, though consultant Nicholas Lovell believes the game will launch with a subscription before going free-to-play.
         </p>
 
-        <%--<?php // [TODO]: Man skal ikke kunne se kommentar-formularen hvis man ikke har lov til at kommentere. ?>--%>
+        <%--// [TODO]: Man skal ikke kunne se kommentar-formularen hvis man ikke har lov til at kommentere. --%>
 
         <form>
             <fieldset>
@@ -44,7 +44,7 @@
         </form>
 
 
-        <%--				<?php // [TODO]: Man skal ikke kunne se kommantarer, hvis man ikke har rettigheden. ?>--%>
+        <%--				// [TODO]: Man skal ikke kunne se kommantarer, hvis man ikke har rettigheden. --%>
 
 
         <p class="comment">
@@ -78,7 +78,7 @@
             <a class="share">Del</a>
             <a class="like">Synes om</a>
 
-            <%--						<?php // [TODO]: Man skal ikke kunne trykke "svar" hvis man ikke har lov til at kommentere. ?>--%>
+            <%--						// [TODO]: Man skal ikke kunne trykke "svar" hvis man ikke har lov til at kommentere. --%>
 
             <a class="reply">Svar</a>
         </p>
@@ -93,7 +93,7 @@
             <a class="share">Del</a>
             <a class="like">Synes om</a>
 
-            <%--						<?php // [TODO]: Man skal ikke kunne trykke "svar" hvis man ikke har lov til at kommentere. ?>--%>
+            <%--						// [TODO]: Man skal ikke kunne trykke "svar" hvis man ikke har lov til at kommentere. --%>
 
             <a class="reply">Svar</a>
         </p>
