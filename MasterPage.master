@@ -11,11 +11,23 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form" runat="server">
         <div id="container">
 
             <header id="top" class="tblue">
                 <h1>Gratis Online Spil</h1>
+
+           <section class="form"><asp:Literal ID="login_besked" runat="server" Text="Velkommen"></asp:Literal>
+           <asp:MultiView ID="LoggedInView" runat="server">
+         <asp:View ID="loginFormView" runat="server">
+             
+        <asp:TextBox ID="tb_username" runat="server"></asp:TextBox>
+        <asp:TextBox ID="tb_password" TextMode="Password" runat="server"></asp:TextBox>
+        <asp:Button ID="btn_login" runat="server" Text="Login" OnClick="btn_login_Click" />
+        
+         </asp:View>
+                </asp:MultiView>
+            </section>
 
                 <%-- Login form eller brugernavn--%>
             </header>

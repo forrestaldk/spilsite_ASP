@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* CSS Document */
 
 /* Globalt */
@@ -49,9 +49,9 @@ border-radius:2%;
 #container > header a { color:#FFF; }
 #container > footer { text-align:center; font-size:50%; }
 #container > header h1 {float: left; text-shadow: 2px 2px #000;}
-#container > header form {float: right; position: relative; margin-top: 1%; font-size:60%; }
-#container > header form input {width:20%;}
-#container > header form input[type="submit"] {width:15%; text-align:center; }
+#container > header .form {float: right; position: relative; margin-top: 1%; font-size:60%; }
+#container > header .form input {width:20%;}
+#container > header .form input[type="submit"] {text-align:center; }
 #container > header p { position: absolute; top: 40%; right: 2%; width: 60%; font-size: 60%; margin: 0; text-align: right; }
 #login_besked {
 	border-radius: 5px; box-shadow: 2px 2px 5px #000; position: absolute; z-index: 100; color: #FF2F2F; background-color: black; border: 1px solid #888; left: 0px; font-size: 123%; top: 137%; padding: 1.2%; width: 81%;
@@ -67,7 +67,11 @@ border-radius:2%;
 
 /* Navigation */
 nav {position:relative; clear:both; }
-nav ul { position:relative; margin:20px 0 0 0; list-style:none; }
+nav ul { position:relative; list-style:none;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
 nav ul li { display:inline; }
 nav ul li a {
 	color:#FFF;
