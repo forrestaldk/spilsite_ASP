@@ -79,20 +79,20 @@ include ("includes/side_start.php");
             <article>
                 <header><h1><a  href="#top" title="Til top">Top 3 Online spil</a></h1></header>
                     <p>
-<img src="site/images/spil/coastbike.jpg" width="100%" title="Coast Bike">
-<img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
+<img src="images/spil/coastbike.jpg" width="100%" title="Coast Bike">
+<img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
 <br>
 Coast Bike
                     </p>
                     <p>
-<img src="site/images/spil/virtualvillagers.jpg" width="100%" title="Virtual Villagers">
-<img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
+<img src="images/spil/virtualvillagers.jpg" width="100%" title="Virtual Villagers">
+<img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
 <br>
 Virtual Villagers
                     </p>
                     <p>
-<img src="site/images/spil/bubblematch.jpg" width="100%" title="Bubble Match">
-<img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
+<img src="images/spil/bubblematch.jpg" width="100%" title="Bubble Match">
+<img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
 <br>
 Bubble Match
                     </p>
@@ -101,20 +101,20 @@ Bubble Match
             <article>
                 <header><h1><a  href="#top" title="Til top">Top 3 Downloadede spil</a></h1></header>
                     <p>
-<img src="site/images/spil/dirtydevils.jpg" width="100%" title="Dirty Devils">
-<img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
+<img src="images/spil/dirtydevils.jpg" width="100%" title="Dirty Devils">
+<img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
 <br>
 Dirty Devils
                     </p>
                     <p>
-<img src="site/images/spil/deadparadise.jpg" width="100%" title="Dead Paradise">
-<img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
+<img src="images/spil/deadparadise.jpg" width="100%" title="Dead Paradise">
+<img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
 <br>
 Dead Paradise
                     </p>
                     <p>
-<img src="site/images/spil/jewelquest1.jpg" width="100%"  title="Jewel Quest 1">
-<img src="site/images/star/star2w3y.png" width="100%" title="Star" class="star">
+<img src="images/spil/jewelquest1.jpg" width="100%"  title="Jewel Quest 1">
+<img src="images/star/star2w3y.png" width="100%" title="Star" class="star">
 <br>
 Jewel Quest 1
                     </p>
@@ -132,19 +132,19 @@ Jewel Quest 1
 		<article>
 			<header><h1><a  href="#top" title="Til top">Nyheder</a></h1></header>
                     <p>
-<img src="site/images/spil/angryalamo.jpg" width="100%" title="Angry Alamo">
-<img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
+<img src="images/spil/angryalamo.jpg" width="100%" title="Angry Alamo">
+<img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
 <br>
 Angry Alamo
                      </p>
                     <p>
-<img src="site/images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3">
-<img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
+<img src="images/spil/jewelquest3.jpg" width="100%" title="Jewel Quest 3">
+<img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
 <br>
 Jewel Quest 3
                     <p>
-<img src="site/images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal">
-<img src="site/images/star/star5w0y.png" width="100%" title="Star" class="star">
+<img src="images/spil/themysteryofthecrystalportal.jpg" width="100%" title="The Mystery of the Crystal Portal">
+<img src="images/star/star5w0y.png" width="100%" title="Star" class="star">
 <br>
 The Mystery of the Crystal Portal
                     </p>
@@ -153,20 +153,20 @@ The Mystery of the Crystal Portal
             <article>
                 <header><h1><a  href="#top" title="Til top">Udvalgte</a></h1></header>
                     <p>
-<img src="site/images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1">
-<img src="site/images/star/star0w5y.png" width="100%" title="Star" class="star">
+<img src="images/spil/deadparadise1.jpg" width="100%" title="Dead Paradise 1">
+<img src="images/star/star0w5y.png" width="100%" title="Star" class="star">
 <br>
 Dead Paradise 1
                     </p>
                     <p>
-<img src="site/images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2">
-<img src="site/images/star/star1w4y.png" width="100%" title="Star" class="star">
+<img src="images/spil/jewelquest2.jpg" width="100%" title="Jewel Quest 2">
+<img src="images/star/star1w4y.png" width="100%" title="Star" class="star">
 <br>
 Jewel Quest 2
                     </p>
                     <p>
-<img src="site/images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze">
-<img src="site/images/star/star2w3y.png" width="100%" title="Star" class="star">
+<img src="images/spil/mayanmaze.jpg" width="100%" title="Mayan Maze">
+<img src="images/star/star2w3y.png" width="100%" title="Star" class="star">
 <br>
 Mayan Maze
                     </p>
