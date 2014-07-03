@@ -15,20 +15,22 @@ public partial class MasterPage : System.Web.UI.MasterPage
     {
         bool LoggedIn = logintest();
         //Session["bruger_navn"] = "Hans";
+        //bool LoggedIn = true;
 
         if (LoggedIn == true)
         {
             LoggedInView.ActiveViewIndex = -1;
             besked.Text = "Velkommen " + Session["bruger_navn"].ToString();
             btn_logud.Visible = true;
-            
+
         }
         else
         {
             LoggedInView.ActiveViewIndex = 0;
             besked.Text += "Velkommen Gæst";
         }
-        Page_Load(null, null);
+
+        //Page_Load(null, null);
     }
 
 
