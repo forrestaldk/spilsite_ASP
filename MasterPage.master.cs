@@ -13,27 +13,25 @@ public partial class MasterPage : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        bool LoggedIn = logintest();
-        //Session["bruger_navn"] = "Hans";
-        //bool LoggedIn = true;
+        ErBrugerLoggetInd();
 
+    }
+
+    private void ErBrugerLoggetInd()
+    {
+        bool LoggedIn = logintest();
         if (LoggedIn == true)
         {
-            LoggedInView.ActiveViewIndex = -1;
             besked.Text = "Velkommen " + Session["bruger_navn"].ToString();
             btn_logud.Visible = true;
-
+            LoggedInView.ActiveViewIndex = -1;
         }
         else
         {
             LoggedInView.ActiveViewIndex = 0;
-            besked.Text += "Velkommen Gæst";
+            besked.Text = "Velkommen Gæst";
         }
-
-        //Page_Load(null, null);
     }
-
-
 
     private bool logintest()
     {
@@ -57,6 +55,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
 
     private void loginForm(string user, string pass)
     {
+
         SqlCommand cmd = new SqlCommand();
         cmd.Connection = Conn();
         cmd.CommandText = @"SELECT * FROM bruger 
@@ -72,7 +71,10 @@ public partial class MasterPage : System.Web.UI.MasterPage
             Session["bruger_navn"] = reader["bruger_navn"].ToString();
             Session["bruger_rolle"] = reader["fk_rolle_id"];
         }
-
+        else
+        {
+            besked.Text = "Forkert Brugernavn / Password";  
+        }
 
     }
 
@@ -82,6 +84,7 @@ public partial class MasterPage : System.Web.UI.MasterPage
     }
     protected void btn_logud_Click(object sender, EventArgs e)
     {
-
+        Session.Abandon();
+        Response.Redirect("Default.aspx", true);
     }
 }
