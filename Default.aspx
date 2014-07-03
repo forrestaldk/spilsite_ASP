@@ -35,13 +35,13 @@
 
         <%--// [TODO]: Man skal ikke kunne se kommentar-formularen hvis man ikke har lov til at kommentere. --%>
 
-        <form>
+        
             <fieldset>
                 <legend>Kommentar</legend>
                 <textarea rows="5"></textarea><br>
                 <input type="submit" value="Send kommentar">
             </fieldset>
-        </form>
+        
 
 
         <%--				// [TODO]: Man skal ikke kunne se kommantarer, hvis man ikke har rettigheden. --%>
